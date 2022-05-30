@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Твоя Вселенная - Заказ</title>
+	<link rel="stylesheet" type="text/css" href="style/order.css">
+	<link rel="stylesheet" type="text/css" href="../styles/navigation.css">
+	<link rel="stylesheet" type="text/css" href="../styles/footer.css">
+</head>
+<body>
+	<header id="top">
+		<nav>
+			<ul>
+				<li><a href="../catalog/catalog.html" style="margin-left: 20px;">каталог</a></li>
+				<li><a href="../catalog/catalog.html#reviews">отзывы</a></li>
+				<li><a href="#contact">контакты</a></li>
+				<li><a class="now">оформить заказ</a></li>
+				<li style="float: right; margin-right: 30px;"><a href="../index.html">вернуться на главную</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<div class="container">
+			<div class="order">Оформить заказ</div>
+			<div class="box one">
+				<h3>Цвет фона</h3>
+				<div><label><input type="radio" name="radio1" value="picture/mapBackground/белый.png">	Белый<img class="descriptionColor" src="picture/small/белый.png"></label></div>
+				<div><label><input type="radio" name="radio1" value="picture/mapBackground/бордовый.png">	Бордовый<img class="descriptionColor" src="picture/small/бордовый.png"></label></div>
+				<div><label><input type="radio" name="radio1" value="picture/mapBackground/голубой.png">	Голубой<img class="descriptionColor" src="picture/small/голубой.png"></label></div>
+				<div><label><input type="radio" name="radio1" value="picture/mapBackground/зеленый.png">	Зелёный<img class="descriptionColor" src="picture/small/зеленый.png"></label></div>
+				<div><label><input type="radio" name="radio1" value="picture/mapBackground/серый.png">	Серый<img class="descriptionColor" src="picture/small/серый.png"></label></div>
+				<div><label><input type="radio" name="radio1" value="picture/mapBackground/синий.png">	Синий<img class="descriptionColor" src="picture/small/синий.png"></label></div>
+				<div><label><input type="radio" name="radio1" value="picture/mapBackground/сиреневый.png">	Сиреневый<img class="descriptionColor" src="picture/small/сиреневый.png"></label></div>
+				<div><label><input type="radio" name="radio1" value="picture/mapBackground/черный.png">	Чёрный<img class="descriptionColor" src="picture/small/черный.png"></label></div>
+			</div>
+
+			<div class="box two">
+				<h3>Цвет фона карты</h3>
+				<div><label><input type="radio" name="radio2" value="picture/circleColor/серый.png">	Серый<img class="descriptionColor" src="picture/small/серый.png"></label></div>
+				<div><label><input type="radio" name="radio2" value="picture/circleColor/черный.png">	Чёрный<img class="descriptionColor" src="picture/small/черный.png"></label></div>
+				<div><label><input type="radio" name="radio2" value="picture/circleColor/голубой.png">	Голубой<img class="descriptionColor" src="picture/small/голубой.png"></label></div>
+				<div><label><input type="radio" name="radio2" value="picture/circleColor/синий.png">	Синий<img class="descriptionColor" src="picture/small/синий.png"></label></div>
+				<div><label><input type="radio" name="radio2" value="picture/circleColor/разноцветный.png">	Разноцветный<img class="descriptionColor" src="picture/small/разноцветный.png"></label></div>
+			</div>
+
+			<div class="box three">
+				<h3>Количество созвездий</h3>
+				<div><label><input type="radio" name="radio3" value="picture/countStar/одно.png">	Одно</label></div>
+				<div><label><input type="radio" name="radio3" value="picture/countStar/два.png">	Два</label></div>
+				<div><label><input type="radio" name="radio3" value="picture/countStar/три.png">	Три</label></div>
+				<div><label><input type="radio" name="radio3" value="picture/countStar/карта.png">	Карта</label></div>
+			</div>
+
+			<div class="image">
+				<div class="image2">
+					<div class="image3">
+					</div>
+				</div>
+			</div>
+
+			<div class="box contactClient">
+				<h3>Заполните данные</h3>
+				<table>
+					<tr>
+						<td><label for="mail">Введите подпись:</label></td>
+						<td><input type="text"></td>
+					</tr>
+
+					<tr>
+						<td><label for="mail">Введите город:</label></td>
+						<td><input type="text"></td>
+					</tr>
+
+					<tr>
+						<td><label for="mail">Выберите дату:</label></td>
+						<td><input type="date"></td>
+					</tr>
+
+					<tr>
+						<td><label for="mail">Выберите время:</label></td>
+						<td><input type="time"></td>
+					</tr>
+
+					<tr>
+						<td><label for="mail">Введите созвездие(если выбрали кол-во созвездий):</label></td>
+						<td><input type="text"></td>
+					</tr>
+
+					<tr>
+						<td><label for="phone">Введите свой номер телефона:</label></td>
+						<td><input type="tel" id="phone" name="phone" required></td>
+					</tr>
+
+					<tr>
+						<td><label for="mail">Введите свой E-mail:</label></td>
+						<td><input type="email" id="email" name="email" required ></td>
+					</tr>
+
+
+					<tr class="lasTable">
+						<td colspan="2"><a href="../catalog/catalog.html" class="submit">Отправить заказ</a></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+
+	</main>
+
+	<footer id="contact">
+		<ul class="social" style="">
+			<li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+			<li><a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
+			<li><a href="#"><ion-icon name="logo-vk"><ion-icon></a></li>
+				<li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+			</ul>
+
+			<ul class="menu">
+				<li><a>E-mail: your_universe@yandex.ru</a></li>
+			</ul>
+			<p>©2022 | Your Universe</p>
+			<img src="picture/by-nc-nd.svg" alt="Creative Commons" style="margin-left: 90%; opacity: 40%;">
+		</footer>
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script src="script/image.js"></script>
+	</body>
+	</html>
